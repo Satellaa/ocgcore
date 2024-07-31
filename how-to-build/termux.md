@@ -35,7 +35,7 @@ git clone --recursive https://github.com/premake/premake-core.git
 cd premake-core
 make -f Bootstrap.mak linux
 ```
-Move the `premake5` executable to the appropriate directory:
+Copy the `premake5` executable to the appropriate directory:
 ```sh
 cp bin/release/premake5 /data/data/com.termux/files/usr/bin
 ```
@@ -44,19 +44,15 @@ cp bin/release/premake5 /data/data/com.termux/files/usr/bin
 
 Run the installation script for Lua:
 ```sh
-cd ygopro-core/scripts
-./install-lua.sh
-```
-Copy the Lua source directory:
-```sh
-mv lua/src ../lua
+cd ygopro-core
+./scripts/install-lua.sh
 ```
 
 ### Building `ocgcore`
 
 After installing all dependencies, proceed with building `ocgcore`:
 
-1. Navigate to the `ygopro-core` directory:
+1. Navigate to the `ygopro-core` directory (if you are not in it):
     ```sh
     cd ygopro-core
     ```
