@@ -20,3 +20,6 @@ You can add the following structure to the `config/user_configs.json` file (crea
 Then go to the `config/configs.json` file and set `has_core` to `false`.
 
 That's all! Just restart EDOPro and enjoy!
+
+## Note
+Currently, to use constants from `script/extra_constant.lua`, you must add `Duel.LoadScript("extra_constant.lua")` to the cards that use those constants. This issue will be fixed in the upcoming version of EDOPro, which will allow you to utilize init.lua in the repository.
