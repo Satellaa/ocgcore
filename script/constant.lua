@@ -1,0 +1,1 @@
+EFFECT_MR3_PENDULUM       = 1000
