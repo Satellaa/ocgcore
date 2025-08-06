@@ -1,0 +1,1 @@
+Duel.LoadScript("extra_constant.lua")

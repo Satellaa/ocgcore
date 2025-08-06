@@ -28,6 +28,3 @@ To use the cores in this repository, follow these steps:
 2. Open the `config/configs.json` file and set `has_core` to `false`.
 
 That's it! Simply restart EDOPro and enjoy your new setup.
-
-## Note
-Currently, to use constants from `script/extra_constant.lua`, you must add `Duel.LoadScript("extra_constant.lua")` to the cards that use those constants. This issue will be fixed in the upcoming version of EDOPro, which will allow you to utilize `init.lua` in the repository.
